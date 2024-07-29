@@ -68,3 +68,95 @@ setTimeout(() => {
         }
     }, 1000);
 }, 5000);
+
+
+
+// video ad 
+
+// Array of video sources and corresponding button links, text, and descriptions
+var videoAds = [
+    { 
+        src: '1.mp4', 
+        description: 'Learn more about Ethical Hacking...', 
+        link: 'https://example.com/ad1', 
+        buttonText: 'Join Now' 
+    },
+    { 
+        src: '2.mp4', 
+        description: 'Explore our second video ad...', 
+        link: 'https://example.com/ad2', 
+        buttonText: 'Learn More' 
+    },
+    { 
+        src: '3.mp4', 
+        description: 'Check out our third ad...', 
+        link: 'https://example.com/ad3', 
+        buttonText: 'Discover More' 
+    },
+    { 
+        src: '4.mp4', 
+        description: 'Don\'t miss out on our fourth ad...', 
+        link: 'https://example.com/ad4', 
+        buttonText: 'Get Started' 
+    },
+    { 
+        src: '5.mp4', 
+        description: 'Our fifth ad is packed with great content...', 
+        link: 'https://example.com/ad5', 
+        buttonText: 'Sign Up' 
+    }
+    // Add more ads as needed
+];
+
+// Function to select a random video
+function getRandomVideo() {
+    var randomIndex = Math.floor(Math.random() * videoAds.length);
+    return videoAds[randomIndex];
+}
+
+// Function to generate ad HTML
+function createAdHtml(ad) {
+    return `
+        <div class="videoad-container">
+            <div class="videoad-video-container">
+                <video autoplay muted loop>
+                    <source src="${ad.src}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="videoad-info-container">
+                <p>${ad.description}</p>
+                <div class="videoad-button-container">
+                    <a href="${ad.link}" target="_blank">
+                        <button>${ad.buttonText}</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+// Function to display ads in containers
+function displayAds() {
+    var containers = document.querySelectorAll('.videoad-container'); // Select all ad containers
+    var ads = videoAds.slice(); // Clone the array to shuffle
+
+    // Shuffle ads
+    for (let i = ads.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [ads[i], ads[j]] = [ads[j], ads[i]];
+    }
+
+    // Display ads in containers
+    containers.forEach((container, index) => {
+        if (index < ads.length) {
+            container.innerHTML = createAdHtml(ads[index]);
+        } else {
+            container.innerHTML = ''; // Clear extra containers
+        }
+    });
+}
+
+// Initialize ads on page load
+displayAds();
+
