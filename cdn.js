@@ -76,31 +76,31 @@ setTimeout(() => {
 // Array of video sources and corresponding button links, text, and descriptions
 var videoAds = [
     { 
-        src: '1.mp4', 
+        src: 'https://codeblackspider.github.io/fontbeescdn/1.mp4', 
         description: 'Learn more about Ethical Hacking...', 
         link: 'https://example.com/ad1', 
         buttonText: 'Join Now' 
     },
     { 
-        src: '2.mp4', 
+        src: 'https://codeblackspider.github.io/fontbeescdn/2.mp4', 
         description: 'Explore our second video ad...', 
         link: 'https://example.com/ad2', 
         buttonText: 'Learn More' 
     },
     { 
-        src: '3.mp4', 
+        src: 'https://codeblackspider.github.io/fontbeescdn/3.mp4', 
         description: 'Check out our third ad...', 
         link: 'https://example.com/ad3', 
         buttonText: 'Discover More' 
     },
     { 
-        src: '4.mp4', 
+        src: 'https://codeblackspider.github.io/fontbeescdn/4.mp4', 
         description: 'Don\'t miss out on our fourth ad...', 
         link: 'https://example.com/ad4', 
         buttonText: 'Get Started' 
     },
     { 
-        src: '5.mp4', 
+        src: 'https://codeblackspider.github.io/fontbeescdn/5.mp4', 
         description: 'Our fifth ad is packed with great content...', 
         link: 'https://example.com/ad5', 
         buttonText: 'Sign Up' 
