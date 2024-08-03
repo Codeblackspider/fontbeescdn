@@ -216,65 +216,73 @@ video {
 }
 
 
-
-
 .postpromotion-gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 16px;
-            padding: 20px;
-            justify-content: center;
-        }
-
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        padding: 20px;
+        justify-content: center;
+    }
+    
+    .postpromotion-gallery-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1 1 calc(33.333% - 32px);
+        margin-bottom: 16px;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        background-color: #0f1519;
+        padding: 10px;
+    }
+    
+    .postpromotion-gallery-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+    
+    .postpromotion-gallery-item button {
+        margin-top: 20px; /* Increased margin top for more space above the button */
+        padding: 15px 30px; /* Increased padding for more space inside the button */
+        border: none;
+        background-color: #a435f0;
+        color: white;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+        align-self: center; /* Center the button horizontally */
+    }
+    
+    .postpromotion-gallery-item button:hover {
+        background-color: #15ffa0;
+    }
+    
+    .postpromotion-gallery-item:hover img {
+        transform: scale(1.05);
+    }
+    
+    .postpromotion-gallery-item p {
+        color: #FFFFFF;
+        margin-top: 10px; /* Added margin top for space between description and button */
+        flex-grow: 1; /* Allow the paragraph to take up available space */
+        display: flex;
+        align-items: center; /* Center text vertically */
+        justify-content: center; /* Center text horizontally */
+    }
+    
+    @media (max-width: 768px) {
         .postpromotion-gallery-item {
-            flex: 1 1 calc(33.333% - 32px);
-            margin-bottom: 16px;
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            background-color: #0f1519;
-            padding: 10px;
+            flex: 1 1 calc(50% - 32px);
         }
-
-        .postpromotion-gallery-item img {
-            width: 100%;
-            height: auto;
-            display: block;
-            transition: transform 0.3s ease;
+    }
+    
+    @media (max-width: 480px) {
+        .postpromotion-gallery-item {
+            flex: 1 1 calc(100% - 32px);
         }
-
-        .postpromotion-gallery-item button {
-            margin-top: 10px;
-            padding: 10px 20px;
-            border: none;
-            background-color: #a435f0;
-            color: white;
-            cursor: pointer;
-            border-radius: 4px;
-            transition: background-color 0.3s;
-        }
-
-        .postpromotion-gallery-item button:hover {
-            background-color: #15ffa0;
-        }
-
-        .postpromotion-gallery-item:hover img {
-            transform: scale(1.05);
-        }
-
-        .postpromotion-gallery-item p {
-            color: #FFFFFF;
-        }
-
-        @media (max-width: 768px) {
-            .postpromotion-gallery-item {
-                flex: 1 1 calc(50% - 32px);
-            }
-        }
-
-        @media (max-width: 480px) {
-            .postpromotion-gallery-item {
-                flex: 1 1 calc(100% - 32px);
-            }
-        }
+    }
+    
