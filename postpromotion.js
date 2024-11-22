@@ -123,6 +123,53 @@ var postpromotionGalleryItems = [
         link: "https://www.fontbees.store/2024/06/28-days-later-font-free-download.html",
         
     },
+    {
+        imageUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL5sovIs3Ps8grbD9FeeuwYm2lFm7S_SvnSG3lTo4yRuUCU2crYwSluh620LphdmUnQ3tRo2vqn4DbuMKEcL0CSSmbfaeszQrqAv1FpDQuRKHOLv0vFTNNCjvut3Dup5MjhXl6fyA2ZU0jFyWLlm9WtADmhvvrga1xRj2QB42ieEmJdlTbFtOeG1Jzuyfd/w640-h360/photo_2024-11-12_21-28-41.jpg",
+        text: "Master Adobe Illustrator Beginner to Advanced Design Course",
+        link: "https://www.fontbees.store/2024/11/master-adobe-illustrator-cc-course.html"
+    },
+    {
+        imageUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIH2nt5AB3Bm_nIspbc9hxiV2bNQ7spzyUOBrma18p3B3jSYbA_botoY01kTiuL01JOUPTM4G7Cy57pq3O-q6OwEkP0NtRvfolVx_tYZsDdO3hECNeRQR_exKTP3pggViakpLVw3qgy09HvtCxRm1EgOh9_-vvk_UQ7rE09iAYFG-miRucthAtXy9v5ri3/w640-h360/photo_2024-11-09_11-42-26.jpg",
+        text: "Complete Web Development Masterclass - Online Certification Course",
+        link: "https://www.fontbees.store/2024/11/complete-web-development-masterclass-certification.html"
+    },
+    {
+        imageUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6PUZf0zDrTgihmGOBhdokbIUhX2kjgL8_BOrlR3a8N7rrJq_YojPJ9pIB1lADZ5wGz7kgcLePbyPSrcJy-UnM2jstLnaIJP4vaRyVuEMK3pFQVVY3Dm69Gi7ZrRnx7b-BWj14-ebQorkzEP27LFiP3vlr4vvIUNWIkFHeZuajsEJ_2pNvzMXbuXiMEyS5/w640-h360/photo_2024-11-09_10-17-45.jpg",
+        text: "Digital Marketing 101: A Complete Beginner’s Guide",
+        link: "https://www.fontbees.store/2024/11/complete-beginners-guide-digital-marketing.html"
+    },
+    {
+        imageUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhc6vMsOdhAPwRWQt62u_DaRCf6YqOvpLjGLycZIpksKWNiUdXeIFBAVpBVHGIwm13HcAxW6jCf3lhk1oWArua3zuWQdpr9AqtZreqgrgIigv_XRpd7VDppTOlCQyQvGnJcLvsVu6Ebe0iDlgy6n4HrjttfXuNCJ1V4e850LbRhH3sLQj4-QrzISKzQwVdF/w640-h360/photo_2024-11-09_09-53-02.jpg",
+        text: "Unleash Your Creative Potential with Canva: The Ultimate Design Toolkit",
+        link: "https://www.fontbees.store/2024/11/free-canva-design-toolkit.html"
+    },
+    {
+        imageUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIzbmq10ktbq-sIjAhs1TzUHXrQL2noshrT6Ct_MUjYI0cbciUgBBT4IemDbokkFSqreBo4iAKW2LPwli9C57e_lykNIHq2nUJKSJrTtl0HEUFxmdABO3qmg8_gyiIzY9II2pOCtf2S3UOzFMXznNfx-0IO6ETfq7zm3THhOjA_q-guzO9zR9QGYCT_pAT/w640-h360/photo_2024-11-09_09-29-52.jpg",
+        text: "Free Canva Essentials Course 2024: Complete Beginner’s Guide",
+        link: "https://www.fontbees.store/2024/11/canva-essentials-beginner-guide-2024.html"
+    },
+
+    {
+        imageUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVzxH9frwXeYlEK_yROep0jd_PJBQOlhd1I15oZlt2YHtVui0p6v6wfoHliGz6qrGsdzm19Dtpo5q6h2tY7X0plpyGkJT-nes1g_4w6LA_i0nnJuNoEx3KO_VxcEYd8DRy4aRg3hFeVZX9-kfnaA82kI-rCpXLzko6hoD11MWVuEtHGPYHRoLMly0HtrPZ/w640-h360/photo_2024-11-08_09-54-26.jpg",
+        text: "Master Python Basics in Just 2 Hours – Free Introductory Course",
+        link: "https://www.fontbees.store/2024/11/python-for-busy-people-intro-in-2-hours.html"
+    },
+
+    {
+        imageUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEht0XMCN3EWPE4IdlN0ySevkHpf3WCW1dW2dRaSkWW0cYgw9Ivjl6Q4H8tInzHIl6-LIysyfhSpZ1hHNFxIE5FKzqA437lgIzt0a9kJfgQYzvh_BbKhhyphenhyphenqMWPF2SD7sfj5HNS5e8VVgmCDFiqfKy86oCE9QAQzAsm3FDuJekW9_0zPnI3yn28YgI_iMJDXO/w640-h360/photo_2024-11-08_09-44-20.jpg",
+        text: "Master Python Programming in 12 Days: Free Interactive Challenges and Real-World Projects",
+        link: "https://www.fontbees.store/2024/11/master-python-programming-12-days.html"
+    },
+    {
+        imageUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigHkS64coV4w5neCxaQIRbBn5HpdKXjVInApuav6JM8dDT9wz54LNIuTQ1smQg8B340WQfKe7OimtcxdJws71pQ2mKy6upQ6JBO58Jo-boLLQHE9eD-L_HlOChzQ9SQwsUmJVTGHjp1rIIB8RWYFf2x70jhGpdw-ArYjq2jseGGAlaA9w42NvA2sOs5uM8/w640-h360/photo_2024-11-08_09-27-31.jpg",
+        text: "Master SQL Injection: A Beginner's Practical Guide for Ethical Hackers",
+        link: "https://www.fontbees.store/2024/11/master-sql-injection-for-ethical-hackers.html"
+    },
+    {
+        imageUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyjPz3GLW8QGjSX6JqoJpbh0IQFWMFI0z7mlAPmayy4OQfs0SxY-D54JCpLVEjUxx-0I-cenSFeB6K6JDRlBoFJ0ovPF78h4LCh_1kCDhU9bT9pJ7u4a-by036MxHhcaDf2z6PPbLhzdKtVJlL4iMbx5LKdbLRNiEluECxYSRXrDfGoABJ9juID3LJBn31/w640-h360/photo_2024-11-08_09-15-05.jpg",
+        text: "Free Ethical Hacking for Beginners in Hindi",
+        link: "https://www.fontbees.store/2024/11/ethical-hacking-for-beginners-hindi.html"
+    },
 
 
 
